@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+</head>
+<body>
+    <!--Você pode mudar a propriedade das boxes (Para mudar as caracteristicas de uma box, como fazer um box-level virar um inline-level. Basta usar "display: inline;" e "display: block;" e "display: inline-block;")-->
+    <h1>Modelo de caixa</h1>
+    <p>box, básicamente o conteúdo e mede por "height" e "width".</p> <!--Caixa-->
+    <p>padding, espaço entre a borda e o conteúdo, mede por (top, bottom, right, left).</p> <!--Espaço-->
+    <p>border, onde o próximo conteúdo gruda se não houver uma margem.</p> <!--Caixa-->
+    <p>outline</p> <!--Traçado-->
+    <p>margin, é onde o próximo conteúdo vai "grudar".</p> <!--Espaço-->
+    <hr>
+    <h1>Há dois tipos de caixas</h1>
+    <h2>box-level</h2>
+    <p>Ocupa a linha inteira e pula para a outra, para criar outra box.</p>
+    <ul>
+        <li>&lt;div&gt;</li>
+        <li>&lt;h1&gt;-&lt;h6&gt;</li>
+        <li>&lt;p&gt;</li>
+        <li>&lt;main&gt;</li>
+        <li>&lt;header&gt;</li>
+        <li>&lt;nav&gt;</li>
+        <li>&lt;article&gt;</li>
+        <li>&lt;aside&gt;</li>
+        <li>&lt;footer&gt;</li>
+        <li>&lt;form&gt;</li>
+        <li>&lt;video&gt;</li>
+    </ul>
+    <h2>inline-box</h2>
+    <p>Cria uma box na mesma linha, tentando otimizar o máximo de espaço.</p>
+    <ul>
+        <li>&lt;span&gt;</li>
+        <li>&lt;at&gt;</li>
+        <li>&lt;code&gt;</li>
+        <li>&lt;small&gt;</li>
+        <li>&lt;strong&gt;</li>
+        <li>&lt;em&gt;</li>
+        <li>&lt;sup&gt; - &lt;sub&gt;</li>
+        <li>&lt;label&gt;</li>
+        <li>&lt;button&gt;</li>
+        <li>&lt;input&gt;</li>
+        <li>&lt;select&gt;</li>
+    </ul>
+</body>
+</html>

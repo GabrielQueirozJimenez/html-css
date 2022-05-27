@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo imagens 2.0</title>
+</head>
+<body>
+    <h1>Imagens 2.0</h1>
+    <h2>Imagens dinâmicas</h2>
+    <p>Use a tag &lt;picture&gt; para configurar uma imagem dinâmica.</p>
+    <picture> <!--source:media:type-->
+        <source media="(max-width: 650px)" srcset="../im4g3ns/imagem-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="../im4g3ns/imagem-M.png" type="image/png">
+        <img src="../im4g3ns/imagem-G.png" alt="imagem grande">
+        <img src="../im4g3ns/imagem-M.png" alt="imagem média">
+        <img src="../im4g3ns/imagem-P.png" alt="imagem pequena">
+    </picture>
+    <p>A tag &lt;picture&gt;, permite que sejam criados vários sources dentro.<br>
+    Os sources, normalmente vêm com "min-width", e usar uns 50px a mais, que é o tamanho aproximado da barra de rolagem.<br>
+    Ps. Usar os sources em ordem <strong>crescente</strong> ou <strong>decrescente</strong>.</p>
+</body>
+</html>

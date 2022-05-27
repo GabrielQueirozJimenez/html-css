@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras configurações de cores</title>
+    <style>
+        *{ /*O "*" significa uma configuração global em CSS*/
+            height: 100%;
+        }
+        body{
+            background-image: linear-gradient(to right, cornflowerblue, rgb(46, 101, 227));
+            background-attachment: fixed; /*Serve para deixar o fundo fixo*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Degradê</h1>
+    <p>Para fazer o estilo degradê: background-image -> linear-gradient([to right ou 180deg], [white, blue])</p>
+
+    <p>No linear-gradient, você pode escolher a direção por indicação (to right, to left, to top, to bottom) ou informar pelos graus (90deg)</p>
+
+    <p>Quando escolhe <i>to top</i>, ele fica zebrado, por isso, usar a height: 100%, nas configurações globais de CSS</p>
+
+    <p>No background-image, em vez de ir no linear-gradient, também é possível fazer em circulos, utilizando: radial-gradient(circle, colors...). Depois de escolher as cores, é possível dizer o quanto da tela ela vai ocupar, só colocar a porcentagem depois da cor, não precisa de virgula.</p>
+</body>
+</html>

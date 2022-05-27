@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificando bordas</title>
+</head>
+<body>
+    <h1>Configurações de bordas</h1>
+    <h2>ARREDONDANDO OS VÉRTICES</h2>
+    <p>border-radius:(valorGeral)px ; OU border-radius:(valor1)px (Valor2)px (valor3)px (valor4)px;</p>
+    <p>A ordem das margem e caso queira fazer individualmente: border-top-left-radius:"valor"px;. Na ordem fica, top-left -> top-right -> bottom-right -> bottom-left.</p>
+    <p>Também funciona em %</p>
+    <hr>
+
+    <h2>Borda personalizada</h2>
+    <p>Configure a borda do jeito que quiser (precisa ter uma borda de apoio), depois, inserir o comando "<code>border-image-source: url('link da borda personalizada.png');</code>".</p>
+    <p>Pode ser, que precise fatiar a imagem -> <code>border-image-slice:"valor teste";</code>. Não precisa colocar <strong>px</strong>.</p>
+    <p>Também pode brincar com: <code>border-image-repeat: repeat;</code>. Pode usar o repeat, stretch...</p>
+    <h3>shorthand</h3>
+    <p>border-image:;. Ordem: source slice repeat.</p>
+</body>
+</html>

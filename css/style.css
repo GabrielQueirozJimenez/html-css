@@ -1,0 +1,26 @@
+@charset "UTF-8"; /*Vai ter que digitar manualmente essa parte*/
+
+body{
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: brown;
+    background-color: chartreuse;
+}
+
+h2{
+    color: crimson;
+}
+
+h3{
+    color: blue;
+}
+
+p{
+    color: black;
+    text-decoration: underline;
+}

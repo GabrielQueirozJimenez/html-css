@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vídeos</title>
+</head>
+<body>
+    <h2>Vídeos hospedados localmente</h2>
+    <p>Vídeos localizados no próprio servidor</p>
+
+    <video src="#.mp4" controls></video> <!--Forma 01-->
+
+    <video controls poster="../im4g3ns/middle/Bonsai_02.middle.jpeg"> <!--Forma 02-->
+        <source src="#.m4v" type="video/mp4"> <!--source:src-->
+        <source src="#.ogv" type="video/ogg">
+        <source src="#.webm" type="video/webm">
+        <p>Essa mensagem irá aparecer, caso o navegador não reproduza nenhum dos formatos acima... <br>P.S. O <i>poster</i>, serve para colocar uma <i>Imagem no vídeo</i></p>
+    </video>
+
+    <h2>Vídeos Hospedados em servidores externos</h2>
+    <p>Compartilhar -> Incorporar -> Copiar.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Caso queira deixar o vídeo em privado, para que so algumas pessoas o vejam, o youtube não é a melhor escolha.<br>Opções: vimeo</p>
+</body>
+</html>

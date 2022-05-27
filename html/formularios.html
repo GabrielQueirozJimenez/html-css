@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando formularios</title>
+</head>
+<body>
+    <h2></h2>
+    <p>Servem para a coleta de dados do usuário. E usa a tag &lt;form&gt;</p>
+    <form action="/endereço_do_servidor.php">
+        <label for="Comentario">Deixe sua opinião</label>
+        <input type="text" id="Comentario" value="Escreva aqui...">
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+    <form action="/endereço_do_servidor.php">
+        <label for="Nome">Name:</label>
+        <input type="text" id="Nome">
+        <br>
+        <label for="idade">Your Age:</label>
+        <input type="number" id="idade">
+        <br>
+        <label for="nasc">Data de nascimento:</label>
+        <input type="date" id="nasc">
+        <br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="m" value="masc" name="sexo">
+        <label for="m">Masculino (XY)</label>
+        <input type="radio" id="f" value="fem" name="sexo">
+        <label for="f">Feminino (XX)</label>
+        <br>
+        <label for="cor">Escolha uma cor:</label>
+        <input type="color" id="cor">
+        <br>
+        <input type="button" value="Enviar">
+    </form>
+    <hr>
+    <form action="/endereço_do_servidor.php">
+        <label for="Teste">Testes</label>
+        <input type="text" placeholder="Digite o Login:">
+        <input type="password" placeholder="Digite a Senha:">
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Submeter">
+    </form>
+</body>
+</html>

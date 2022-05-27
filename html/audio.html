@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo arquivos de áudio</title>
+</head>
+<body>
+    <h1>Áudio</h1>
+    <p>Dica: YouTube > painel de controle > YouTube Studio > Biblioteca de áudio.<br>Pode baixar as musicas (cuidado com direitos autorais, talvez precise estar <em>logado</em>).</p>
+    <h2>Simple way</h2>
+    <audio src="#" controls autoplay></audio>
+    <p></p>
+    <hr>
+    <h2>Other way</h2>
+    <audio preload="metadata" controls loop> <!--Auto = ruim-->
+        <source src="#.mp3" type="audio/mpeg"> <!--source:src-->
+        <source src="#.ogg" type="audio/ogg">
+        <source src="#.wav" type="audio/wav">
+        <p>Se o navegador <strong><em>não</em></strong> conseguir rodar nenhum desses, ele ira passar essa frase.</p>
+    </audio>
+</body>
+</html>

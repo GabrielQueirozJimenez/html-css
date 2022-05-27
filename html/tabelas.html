@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <p>Tabelas possuem as tags e a hierarquia &lt;table&gt; -> &lt;tr&gt; -> &lt;td&gt;. <br>Também tem a &lt;th&gt;</p>
+    <p>tr = table row, td = table data</p>
+    <hr>
+    <p>Para melhorar a qualidade da tabela, também temos as tags &lt;thead&gt;, &lt;tfoot&gt;, &lt;tbody&gt;</p>
+    <p>Servem para cabeçalho, rodapé e corpo, respectivamente.</p>
+
+    <table border="1">
+        <tr>
+            <th>Name</th> <!--Table header, título-->
+            <th>Age</th>
+            <th>Formation</th>
+        </tr>
+        <tr>
+            <td>Neiko</td>
+            <td>20</td>
+            <td>Engineer</td>
+        </tr>
+        <tr>
+            <td>Goddess</td>
+            <td>20000</td>
+            <td>Protector</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Formation</th>
+        </tr>
+        <tr>
+            <td>Nila</td>
+            <td>20</td>
+            <td rowspan="2">Actress</td> <!--rowspan = permite que está coluna ocupe a outra linha-->
+        </tr>
+        <tr>
+            <td>Nep</td>
+            <td colspan="2">200</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Formation</th>
+        </tr>
+        <tr>
+            <td>Nila</td>
+            <td>20</td>
+            <td>Actress</td>
+        </tr>
+        <tr>
+            <td>Nep</td>
+            <td colspan="2">200</td> <!--colspan = permite que está linha ocupe a outra coluna-->
+        </tr>
+    </table>
+    <!--cellpadding = Distância entre a borda da célula e o conteúdo-->
+    <!--valign = Organiza tudo dentro da célula-->
+</body>
+</html>
